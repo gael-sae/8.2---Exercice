@@ -1,0 +1,4 @@
+﻿  main.cpp
+D:\Formative SAE\Exercices programmation basique\Exercice 8\8.2 - Exercice\8.2 - Exercice\Dragon.json(1,1): error C2447: '{' : en-tête de fonction manquant (liste formelle à l'ancien format ?)
+D:\Formative SAE\Exercices programmation basique\Exercice 8\8.2 - Exercice\8.2 - Exercice\Pig.json(1,1): error C2447: '{' : en-tête de fonction manquant (liste formelle à l'ancien format ?)
+D:\Formative SAE\Exercices programmation basique\Exercice 8\8.2 - Exercice\8.2 - Exercice\main.cpp(79,13): warning C4244: 'argument' : conversion de 'time_t' en 'unsigned int', perte possible de données

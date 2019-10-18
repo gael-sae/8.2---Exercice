@@ -1,0 +1,8 @@
+{
+  "Pig": {
+    "Quantity": "10",
+    "AttackMax": "5",
+    "AttackMin": "1",
+    "Health": "10"
+  }
+}

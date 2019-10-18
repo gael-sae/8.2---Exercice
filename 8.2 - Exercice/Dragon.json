@@ -1,0 +1,8 @@
+{
+  "Dragon": {
+    "Quantity": "1",
+    "AttackMax": "20",
+    "AttackMin": "5",
+    "Health": "100"
+  }
+}

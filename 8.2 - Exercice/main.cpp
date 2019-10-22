@@ -5,6 +5,8 @@
 #include "Dragon.json"
 #include "Pig.json"
 
+
+/* Code de base :
 void DragonAttack(std::vector<int>& PigsHealth, int& PigsDead) { // void pour un tampon de l'action : attaque sur un cochon et vérifiant si il est mort.
 
 	const int maxDamageDragon = 15;
@@ -16,9 +18,6 @@ void DragonAttack(std::vector<int>& PigsHealth, int& PigsDead) { // void pour un
 	int NumberPig = randomNumberPig;
 	int DragonDamage = randomDragonDamage;
 	
-	std::ifstream infile;
-	infile.open("Dragon.json");
-	infile.open("Pig.json");
 	
 	bool isDeadP = true;
 
@@ -43,7 +42,6 @@ void DragonAttack(std::vector<int>& PigsHealth, int& PigsDead) { // void pour un
 			PigsDead++;
 		}
 	}
-	infile.close();
 }
 
 
@@ -58,10 +56,7 @@ void PigsAttack(int& DragonHealth, std::vector<int> PigsHealth) { // void pour u
 	int PigsDamage = randomPigsDamage;
 	int sumDamagePigs = 0;
 	
-	std::ifstream infile;
-	infile.open("Dragon.json");
-	infile.open("Pig.json");
-
+	
 	for (int i = 0; i < sizePigs; i++) {
 		if (PigsHealth[i] > 0) {
 			sumDamagePigs += PigsDamage;
@@ -69,48 +64,67 @@ void PigsAttack(int& DragonHealth, std::vector<int> PigsHealth) { // void pour u
 	}
 	DragonHealth -= sumDamagePigs;
 	std::cout << "The pigs attacked the dragon with " << sumDamagePigs << "damage.\n";
-	
-	infile.close();
-}
-
+	}
+*/
 
 
 int main() {
 	srand((time(NULL)));
 
-
-	std::vector <int> PigsHealth{ 10, 10, 10, 10, 10, 10, 10, 10, 10 ,10 }; // list des vie des cochons
+	/*std::vector <int> PigsHealth{ 10, 10, 10, 10, 10, 10, 10, 10, 10 ,10 };
 
 	int PigsDead = 0;
-	int DragonHealth = 100;
+	int DragonHealth = 100;*/
 	int RoundNumber = 1;
+	
+	char Dragon;
+	char Pig;
+	int Quantity;
 
-	bool isAliveP = true;
-	bool isAliveD = true;
+	bool isAlive = true;
+	
+	std::ifstream infile;
+	infile.open("Dragon.json");
+	infile.open("Pig.json");
 
-
-	while (isAliveD == true && isAliveP == true) {
+	while (isAlive == true) {
 		std::cout << "Round " << RoundNumber << "\n";
 
-		DragonAttack(PigsHealth, PigsDead);
+		/*DragonAttack(PigsHealth, PigsDead);
 
-		PigsAttack(DragonHealth, PigsHealth);
+		PigsAttack(DragonHealth, PigsHealth);*/
 
-		if (PigsDead == 10) {
+		
+
+		if (Pig["Quantity"] > 0) {
+			Pig["Health"] = -Dragon["AttackMin"] || -Dragon["AttackMax"];
+			if (Pig["Health"] <= 0)
+				Pig["Quantity"]--
+		}
+
+		if (Dragon["Health"] > 0) {
+			for (int i = 0; i < Pig["Quantity"]; i++) {
+				Dragon["Health"] = -Pig["AttackMin"] || -Pig["AttackMax"];
+			}
+		}
+
+		if (Pig["Quantity"] == 0) {
 			std::cout << "All pigs are dead. The dragon has won.\n";
 
-			isAliveP = false;
+			isAlive = false;
 		}
-		else if (DragonHealth <= 0) {
+		else if (Dragon["Health"] <= 0) {
 			std::cout << "The pigs have slain the dragon. They win.\n";
 
-			isAliveD = false;
+			isAlive = false;
 		}
 		RoundNumber++;
 
 		system("pause");
 		system("cls");
 	}
+
+	infile.close();
 	return 0;
 }
 

@@ -1,4 +1,20 @@
 ﻿  main.cpp
 D:\Formative SAE\Exercices programmation basique\Exercice 8\8.2 - Exercice\8.2 - Exercice\Dragon.json(1,1): error C2447: '{' : en-tête de fonction manquant (liste formelle à l'ancien format ?)
 D:\Formative SAE\Exercices programmation basique\Exercice 8\8.2 - Exercice\8.2 - Exercice\Pig.json(1,1): error C2447: '{' : en-tête de fonction manquant (liste formelle à l'ancien format ?)
-D:\Formative SAE\Exercices programmation basique\Exercice 8\8.2 - Exercice\8.2 - Exercice\main.cpp(79,13): warning C4244: 'argument' : conversion de 'time_t' en 'unsigned int', perte possible de données
+D:\Formative SAE\Exercices programmation basique\Exercice 8\8.2 - Exercice\8.2 - Exercice\main.cpp(11,7): error C3927: '->' : l'utilisation d'un type de retour de fin n'est pas autorisée après un déclarateur qui n'est pas un déclarateur de fonction
+D:\Formative SAE\Exercices programmation basique\Exercice 8\8.2 - Exercice\8.2 - Exercice\main.cpp(11,7): error C3484: erreur de syntaxe : '->' attendu avant le type de retour
+D:\Formative SAE\Exercices programmation basique\Exercice 8\8.2 - Exercice\8.2 - Exercice\main.cpp(11,12): error C3613: type de retour manquant après '->' ('int' pris par défaut)
+D:\Formative SAE\Exercices programmation basique\Exercice 8\8.2 - Exercice\8.2 - Exercice\main.cpp(11,12): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+D:\Formative SAE\Exercices programmation basique\Exercice 8\8.2 - Exercice\8.2 - Exercice\main.cpp(11,1): error C2371: 'infile' : redéfinition ; types de base différents
+D:\Formative SAE\Exercices programmation basique\Exercice 8\8.2 - Exercice\8.2 - Exercice\main.cpp(10): message : voir la déclaration de 'infile'
+D:\Formative SAE\Exercices programmation basique\Exercice 8\8.2 - Exercice\8.2 - Exercice\main.cpp(11,8): error C2146: erreur de syntaxe : absence de ';' avant l'identificateur 'open'
+D:\Formative SAE\Exercices programmation basique\Exercice 8\8.2 - Exercice\8.2 - Exercice\main.cpp(12,7): error C3927: '->' : l'utilisation d'un type de retour de fin n'est pas autorisée après un déclarateur qui n'est pas un déclarateur de fonction
+D:\Formative SAE\Exercices programmation basique\Exercice 8\8.2 - Exercice\8.2 - Exercice\main.cpp(12,7): error C3484: erreur de syntaxe : '->' attendu avant le type de retour
+D:\Formative SAE\Exercices programmation basique\Exercice 8\8.2 - Exercice\8.2 - Exercice\main.cpp(12,12): error C3613: type de retour manquant après '->' ('int' pris par défaut)
+D:\Formative SAE\Exercices programmation basique\Exercice 8\8.2 - Exercice\8.2 - Exercice\main.cpp(12,12): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+D:\Formative SAE\Exercices programmation basique\Exercice 8\8.2 - Exercice\8.2 - Exercice\main.cpp(12,1): error C2371: 'infile' : redéfinition ; types de base différents
+D:\Formative SAE\Exercices programmation basique\Exercice 8\8.2 - Exercice\8.2 - Exercice\main.cpp(10): message : voir la déclaration de 'infile'
+D:\Formative SAE\Exercices programmation basique\Exercice 8\8.2 - Exercice\8.2 - Exercice\main.cpp(12,8): error C2146: erreur de syntaxe : absence de ';' avant l'identificateur 'open'
+D:\Formative SAE\Exercices programmation basique\Exercice 8\8.2 - Exercice\8.2 - Exercice\main.cpp(14,1): error C2059: erreur de syntaxe : 'for'
+D:\Formative SAE\Exercices programmation basique\Exercice 8\8.2 - Exercice\8.2 - Exercice\main.cpp(87,12): error C2143: erreur de syntaxe : absence de ';' avant '{'
+D:\Formative SAE\Exercices programmation basique\Exercice 8\8.2 - Exercice\8.2 - Exercice\main.cpp(87,12): error C2447: '{' : en-tête de fonction manquant (liste formelle à l'ancien format ?)
